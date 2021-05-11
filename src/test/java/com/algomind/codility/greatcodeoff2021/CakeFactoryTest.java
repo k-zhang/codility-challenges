@@ -7,13 +7,13 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-class GreatCodeOff2021Test {
-    private final GreatCodeOff2021 greatCodeOff2021 = new GreatCodeOff2021();
+class CakeFactoryTest {
+    private final CakeFactory cakeFactory = new CakeFactory();
 
     @ParameterizedTest
     @MethodSource("provideData")
     public void test(int expected, int N, int K, int[] A, int[] B, int[] C) {
-        Assertions.assertEquals(expected, greatCodeOff2021.solution1(N, K, A, B, C));
+        Assertions.assertEquals(expected, cakeFactory.solution1(N, K, A, B, C));
     }
 
     private static Stream<Arguments> provideData() {

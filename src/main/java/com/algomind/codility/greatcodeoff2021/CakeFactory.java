@@ -3,7 +3,7 @@ package com.algomind.codility.greatcodeoff2021;
 import java.util.*;
 import java.util.stream.IntStream;
 
-public class GreatCodeOff2021 {
+public class CakeFactory {
     public int solution(int N, int K, int[] A, int[] B, int[] C) {
         int M = A.length;
 
