@@ -1,9 +1,9 @@
-package com.algomind.codility.thegreatcodeoff2021;
+package com.algomind.codility.greatcodeoff2021;
 
 import java.util.*;
 import java.util.stream.IntStream;
 
-public class TheGreatCodeOff2021 {
+public class GreatCodeOff2021 {
     public int solution(int N, int K, int[] A, int[] B, int[] C) {
         int M = A.length;
 

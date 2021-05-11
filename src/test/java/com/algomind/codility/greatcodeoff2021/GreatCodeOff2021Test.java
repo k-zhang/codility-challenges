@@ -1,4 +1,4 @@
-package com.algomind.codility.thegreatcodeoff2021;
+package com.algomind.codility.greatcodeoff2021;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -7,13 +7,13 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-class TheGreatCodeOff2021Test {
-    private final TheGreatCodeOff2021 theGreatCodeOff2021 = new TheGreatCodeOff2021();
+class GreatCodeOff2021Test {
+    private final GreatCodeOff2021 greatCodeOff2021 = new GreatCodeOff2021();
 
     @ParameterizedTest
     @MethodSource("provideData")
     public void test(int expected, int N, int K, int[] A, int[] B, int[] C) {
-        Assertions.assertEquals(expected, theGreatCodeOff2021.solution1(N, K, A, B, C));
+        Assertions.assertEquals(expected, greatCodeOff2021.solution1(N, K, A, B, C));
     }
 
     private static Stream<Arguments> provideData() {
