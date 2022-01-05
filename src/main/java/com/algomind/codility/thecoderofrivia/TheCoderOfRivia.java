@@ -10,7 +10,6 @@ public class TheCoderOfRivia {
         while(!finished(matrix, target)) {
             var adjustCell = findAdjustCell(matrix);
             adjustMatrix(adjustCell, matrix, target);
-            printMatrix(matrix);
         }
 
         return flattenMatrix(matrix);
@@ -22,14 +21,14 @@ public class TheCoderOfRivia {
         return true;
     }
 
-    private void printMatrix(int[][] matrix) {
-        for(int y = 0 ; y <= 3 ; y ++) {
-            for(int x = 0 ; x <= 3 ; x ++) {
-                System.out.print(matrix[y][x] + "  ");
-            }
-            System.out.println();
-        }
-    }
+//    private void printMatrix(int[][] matrix) {
+//        for(int y = 0 ; y <= 3 ; y ++) {
+//            for(int x = 0 ; x <= 3 ; x ++) {
+//                System.out.print(matrix[y][x] + "  ");
+//            }
+//            System.out.println();
+//        }
+//    }
 
     private void adjustMatrix(int[] adjustCell, int[][] matrix, int target) {
         var x = adjustCell[0];
