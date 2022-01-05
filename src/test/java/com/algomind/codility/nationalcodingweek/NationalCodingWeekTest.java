@@ -13,7 +13,7 @@ class NationalCodingWeekTest {
     @ParameterizedTest
     @MethodSource("provideData")
     public void test(String expected, String S) {
-        Assertions.assertEquals(expected, solution.solution1(S));
+        Assertions.assertEquals(expected, solution.solution(S));
     }
 
     private static Stream<Arguments> provideData() {
