@@ -1,6 +1,7 @@
 package com.algomind.codility.yearofrabbit;
 
 public class YearOfRabbit {
+    // Dynamic Programming
     public int solution(int[] A, int[] B) {
         var dp = new boolean[B.length][A.length];
 
