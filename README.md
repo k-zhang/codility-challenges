@@ -11,3 +11,4 @@ https://app.codility.com/programmers/challenges/
 4. The Fellowship Of The Code (June 2021) <br>
 5. Fast and Curious (July 2021) <br>
 6. Year of The Rabbit (February 2023) <br>
+7. Carol of the Code (December 2022) <br>
